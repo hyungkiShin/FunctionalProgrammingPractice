@@ -61,8 +61,9 @@ public class User {
         return createdAt;
     }
 
-    public void setCreatedAt(final LocalDateTime createdAt) {
+    public User setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
+        return this;
     }
 
     @Override
