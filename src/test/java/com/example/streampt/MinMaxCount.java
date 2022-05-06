@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-@SpringBootTest
 class MinMaxCount {
 
     List<User> users;

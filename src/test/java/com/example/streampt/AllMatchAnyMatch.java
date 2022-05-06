@@ -14,7 +14,6 @@ import java.time.ZoneId;
 import java.util.Arrays;
 import java.util.List;
 
-@SpringBootTest
 public class AllMatchAnyMatch {
 
     List<Integer> numbers = Arrays.asList(3, -4, 2, 7, 9);
